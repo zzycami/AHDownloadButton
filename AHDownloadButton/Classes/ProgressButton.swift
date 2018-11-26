@@ -21,14 +21,14 @@ class ProgressButton: UIControl {
     
     let trackCircleView: CircleView = {
         let circleView = CircleView()
-        circleView.lineWidth = 6
+        circleView.lineWidth = 2
         circleView.isUserInteractionEnabled = false
         return circleView
     }()
     
     let progressCircleView: ProgressCircleView = {
         let view = ProgressCircleView()
-        view.lineWidth = 6
+        view.lineWidth = 2
         view.isUserInteractionEnabled = false
         return view
     }()
